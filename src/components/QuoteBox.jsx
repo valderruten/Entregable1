@@ -9,8 +9,9 @@ const QuoteBox = ({ quoteRandom, handleClick, colorRandom }) => {
         backgroundColor: colorRandom
     }
     return (
+    
         <article className='card' style={objStyle}>
-             ddsad
+            
              <i className='card__icon bx bxs-quote-alt-left'></i>
             
             <p className='card__quote'>{quoteRandom.quote}</p>
